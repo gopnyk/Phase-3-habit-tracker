@@ -1,0 +1,39 @@
+ # Habit tracker app
+
+ This application is a user-friendly way to track your habits. It provides multiple useful features like:
+
+ * Contains intuitive GUI that is built on customtkinter module
+ * Contains statistical visuals for habit analysis using matplotlib module
+ * Features a calendar that displays completion and missed completion days. Similar to anki, flashcard application.
+ * Provides the user with up to date analytics about the habits, that can be filtered by date or habit type
+ * The habits are stored in SQLite database.
+
+
+# Requirements:
+-Python 3.10 or newer
+-pip installer
+
+
+# Installation process:
+1) Download the project
+2) Set the project directory to the "Habit tracker" folder
+3) Install the required modules for the project. Run:  pip install -r requirements.txt
+4) run main.py to start the application
+
+# Demo data
+1) To add demo data to the application run "Demo Data.py" file once and run "main.py" file again.
+
+
+# Useful links:
+1) More custom themes -  https://github.com/a13xe/CTkThemesPack?tab=readme-ov-file
+2) Custom Tkinter documentation - https://customtkinter.tomschimansky.com/documentation/
+
+
+
+# Known issues:
+
+1) Lines in "CTkinter design.py" from 1277 to 1285. I preferred the filter_habits() function to be present in graphs file,
+but the filter habits function would return an empty dictionary - no data, no analysis. Made sure,
+that they get the same input, but it still would not work.
+
+
